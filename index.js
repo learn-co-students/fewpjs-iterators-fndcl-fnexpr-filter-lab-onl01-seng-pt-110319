@@ -1,11 +1,3 @@
-// Code your solution here
-// function findMatching(drivers, string) {
-//     let matchedDrivers = drivers.filter(driver => {
-//         driver === string
-//     })
-//     console.log(matchedDrivers);
-// }
-
 function findMatching(drivers, string) {
     return drivers.filter(function(d) {
         return d.toLowerCase() === string.toLowerCase();
